@@ -8,7 +8,7 @@ import pandas as pd
 import pickle
 
 # --- Page setup (must be the first Streamlit command) ---
-st.set_page_config(page_title="Loan Default ML Predictor", layout="centered")
+st.set_page_config(page_title="Loan Default ML Predictor - William Robinson and Adam Hanselman", layout="centered")
 
 # --- Open the file and load the model ---
 file_to_load = 'model.pkl'
@@ -64,4 +64,4 @@ if st.button("Predict Loan Default"):
     st.bar_chart(chart_data)
 
 st.markdown("---")
-st.markdown("**Developed by Matt Bailey as a simple ML web app demo** | Powered by Streamlit")
+st.markdown("**Developed by William Robinson and Adam Hanselman as a simple ML web app demo** | Powered by Streamlit")
